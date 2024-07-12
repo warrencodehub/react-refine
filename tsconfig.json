@@ -16,10 +16,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./src",
+    "outDir": "./lib/",
+    "rootDir": "./src",
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["src", "./vite.config.ts"],
+
+  "include": ["src", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
