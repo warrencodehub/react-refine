@@ -6,14 +6,14 @@ import type { GetFields, GetVariables } from "@refinedev/nestjs-query";
 
 import { Form, Skeleton } from "antd";
 
-import { Text } from "@/components ";
-import type { Task } from "@/graphql/schema.types ";
+import { Text } from "@/components";
+import type { Task } from "@/graphql/schema.types";
+
+import { UPDATE_TASK_MUTATION } from "@/graphql/mutations";
 import {
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
-} from "@/graphql/types ";
-
-import { UPDATE_TASK_MUTATION } from "@/graphql/mutations ";
+} from "@/graphql/types";
 
 const TitleInput = ({
   value,

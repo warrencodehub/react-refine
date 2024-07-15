@@ -10,7 +10,7 @@ import type { GetFieldsFromList } from "@refinedev/nestjs-query";
 
 import type { DragEndEvent } from "@dnd-kit/core";
 
-import type { TaskUpdateInput } from "@/graphql/schema.types ";
+import type { TaskUpdateInput } from "@/graphql/schema.types";
 import type { TasksQuery, TaskStagesQuery } from "@/graphql/types ";
 
 import { KanbanAddCardButton } from "../components";

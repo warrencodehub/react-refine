@@ -8,11 +8,11 @@ import { Button, Card, Drawer, Form, Input, Spin } from "antd";
 import { CustomAvatar } from "../../custom-avatar";
 import { Text } from "../../text";
 import { UPDATE_USER_MUTATION } from "./queries";
-import { getNameInitials } from "@/utilities ";
+import { getNameInitials } from "@/utilities";
 import {
   UpdateUserMutation,
   UpdateUserMutationVariables,
-} from "@/graphql/types ";
+} from "@/graphql/types";
 
 type Props = {
   opened: boolean;

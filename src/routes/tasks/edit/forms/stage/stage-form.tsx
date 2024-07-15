@@ -9,15 +9,15 @@ import type {
 import { FlagOutlined } from "@ant-design/icons";
 import { Checkbox, Form, Select, Space } from "antd";
 
-import { AccordionHeaderSkeleton } from "@/components ";
-import { TASK_STAGES_SELECT_QUERY } from "@/graphql/queries ";
+import { AccordionHeaderSkeleton } from "@/components";
+import { TASK_STAGES_SELECT_QUERY } from "@/graphql/queries";
 import {
   UpdateTaskMutation,
   TaskStagesSelectQuery,
   UpdateTaskMutationVariables,
 } from "@/graphql/types ";
 
-import { UPDATE_TASK_MUTATION } from "@/graphql/mutations ";
+import { UPDATE_TASK_MUTATION } from "@/graphql/mutations";
 
 type Props = {
   isLoading?: boolean;
